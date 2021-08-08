@@ -14,6 +14,7 @@
 .page-header {
   @include linear-gradient(rgba($black-color,.20), rgba($primary-color, 0.6));
   .btn {
+    background-color: $secondary-color;
     width: 140px;
   }
 }
@@ -68,7 +69,15 @@
 /* Profile Page Social button Style */
 .button-container .btn-default {
   margin-right: 8px;
+  background-color: $secondary-color;
 }
+
+.button-container .btn-default:hover {
+  margin-right: 8px;
+  background-color: $secondary-color;
+}
+
+  
 
 /* Professional Skills Style */
 .progress-container {
@@ -171,6 +180,10 @@
       padding: 30px 0px 30px 0px;
     }
   }
+  .cc-contact .btn{
+background-color: $secondary-color;
+  }
+
 }
 
 /* Footer */
