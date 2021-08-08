@@ -7055,6 +7055,10 @@ Created using IcoMoon - icomoon.io
   width: 140px;
 }
 
+.page-header .btn:hover {
+  background-color: #a16259;
+}
+
 /* Profile Image Style */
 @-webkit-keyframes pulsate {
   0% {
@@ -7138,7 +7142,7 @@ Created using IcoMoon - icomoon.io
 
 .button-container .btn-default:hover {
   margin-right: 8px;
-  background-color: #bf857c;
+  background-color: #a16259;
 }
 
 /* Professional Skills Style */
@@ -7248,6 +7252,10 @@ Created using IcoMoon - icomoon.io
 
 .cc-contact-information .cc-contact .btn {
   background-color: #bf857c;
+}
+
+.cc-contact-information .cc-contact .btn:hover {
+  background-color: #a16259;
 }
 
 /* Footer */

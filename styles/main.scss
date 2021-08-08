@@ -17,6 +17,10 @@
     background-color: $secondary-color;
     width: 140px;
   }
+
+  .btn:hover {
+    background-color: $secondary-color-hover;
+  }
 }
 
 /* Profile Image Style */
@@ -74,7 +78,7 @@
 
 .button-container .btn-default:hover {
   margin-right: 8px;
-  background-color: $secondary-color;
+  background-color: $secondary-color-hover;
 }
 
   
@@ -183,6 +187,10 @@
   .cc-contact .btn{
 background-color: $secondary-color;
   }
+
+  .cc-contact .btn:hover{
+    background-color: $secondary-color-hover;
+      }
 
 }
 
