@@ -51,16 +51,16 @@
 
     &.progress-primary{
         .progress{
-            background: $primary-color-opacity;
+            background: $secondary-color-opacity;
         }
 
         .progress-bar{
-            background: $brand-primary;
+            background: $secondary-color;
         }
 
         .progress-value,
         .progress-badge{
-            color: $brand-primary;
+            color: black;
         }
     }
 

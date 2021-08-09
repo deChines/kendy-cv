@@ -23,6 +23,16 @@
   }
 }
 
+#about {
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
 /* Profile Image Style */
 @keyframes pulsate {
   0% {transform: scale(0.6, 0.6); opacity: 0.0;}
@@ -173,6 +183,17 @@
 }
 
 /* Contact Information Style */
+
+#contact {
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
 .cc-contact-information {
   width: 100%;
   position: relative;
@@ -185,7 +206,7 @@
     }
   }
   .cc-contact .btn{
-background-color: $secondary-color;
+    background-color: $secondary-color;
   }
 
   .cc-contact .btn:hover{
