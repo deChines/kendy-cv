@@ -6167,7 +6167,7 @@ Created using IcoMoon - icomoon.io
 }
 .page-header .btn {
   background-color: #bf857c;
-  width: 140px;
+  width: auto;
 }
 .page-header .btn:hover {
   background-color: #a16259;
@@ -6299,9 +6299,12 @@ Created using IcoMoon - icomoon.io
 .cc-reference .card {
   padding: 40px;
 }
+.cc-reference .cc-reference-content {
+  font-size: medium;
+}
 .cc-reference img {
-  height: 120px;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 .cc-reference .h5 {
   margin: 0;
@@ -6340,6 +6343,7 @@ Created using IcoMoon - icomoon.io
   width: 100%;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 .cc-contact-information .cc-contact {
   padding: 8% 0 8% 20%;
